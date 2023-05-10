@@ -1,0 +1,37 @@
+@import "colors";
+
+.colorswitcher {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3em;
+
+  div {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.yellow {
+  background-color: $yellow !important;
+}
+
+.orange {
+  background-color: $orange !important;
+}
+
+.salmon {
+  background-color: $salmon !important;
+}
+
+.pink {
+  background-color: $pink !important;
+}
+
+.violet {
+  background-color: $violet !important;
+}
+
+.purple {
+  background-color: $purple !important;
+}

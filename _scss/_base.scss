@@ -1,0 +1,26 @@
+@import "colors";
+
+body {
+  box-sizing: border-box;
+  background-color: $darkgray;
+  font-family: "Raleway", Arial, sans-serif;
+  color: $lightgray;
+}
+
+header {
+  color: $yellow;
+  text-align: center;
+  margin-bottom: 3em;
+
+  h1 {
+    font-size: 2.2em;
+  }
+
+  p {
+    font-size: 1.2em;
+  }
+}
+
+main p {
+  text-align: center;
+}

@@ -1,0 +1,29 @@
+@import "colors";
+@import "mixins";
+
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  justify-items: center;
+  align-items: end;
+
+  div {
+    text-align: center;
+  }
+}
+
+#box1 {
+  @include box(100px, 100px);
+}
+
+#box2 {
+  @include box(200px, 200px, $orange);
+}
+
+#box3 {
+  @include box(300px, 300px, $salmon);
+}
+
+#box4 {
+  @include box(400px, 400px, $pink);
+}

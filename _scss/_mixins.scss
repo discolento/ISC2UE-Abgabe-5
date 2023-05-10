@@ -1,0 +1,11 @@
+@import "colors";
+
+@mixin box($width, $height, $bgColor: $gray) {
+  box-sizing: border-box;
+  width: $width;
+  height: $height;
+  background-color: $bgColor;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
